@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+/* ==================================== Global Styles ======================*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ==================================== Home Styles ======================*/
+#home{
+    height: 100vh;
+    background: #01184A;
+    overflow: hidden;
+    position: relative;
+}
+.left{
+    height: 100vh;
+    position: relative;
+}
+
+.left h1{
+    color: #f4f4f4;
+    font-size: 60px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.left h1 .display-1{
+    font-weight: 200;
+    font-size: 300px;
+    display: inline-block;
+    margin-right: -18px;
+}
+.user-img{
+    width: 20rem;
+    height: 20rem;
+    background: #05163A;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 12px 6px 30px rgba(0, 0, 0, 0.1);
+}
+.user-img img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    display: block;
+    box-shadow: 12px 6px 30px rgba(0, 0, 0, 0.1);
+}
+.right{
+    height: 100vh;
+    background: linear-gradient(to bottom , rgba(3, 17, 49,0.7) , rgba(3, 17, 49,0.4));
+    color : #f4f4f4 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.user-text {
+    margin-right: 3rem;
+    margin-top: 5rem;
+}
+.user-text h2{
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.user-text h2 span{
+    color: #2375FE;
+}
+.user-text p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+}
+.main-btn{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: linear-gradient(90deg , rgba(106, 68, 246,0.9),rgba(35, 117, 254,0.9) );
+    padding: 1rem 2.2rem;
+    border-radius: 1rem;
+    transition: all 0.5s ease-in-out;
+    box-shadow:  6px 30px rgba(0, 0, 0, 0);
+    transform: scale(1);
+}
+.main-btn:hover{
+    box-shadow: 12px 6px 30px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    color: #f4f4f4;
+}
+.social-list{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-list h4{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    transform: rotate(90deg);
+    margin-bottom: 6rem;
+}
+
+.social-list i{
+    display: block;
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    background: #01184A;
+    color: #6A44F6;
+    border-radius: 50%;
+    padding: 0.5rem;
+    box-shadow: 12px 6px 30px rgba(0, 0, 0, 0.3);
+    transition: 0.4s ease-in;
+}
+.social-list a:hover,
+.social-list a:hover i{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
